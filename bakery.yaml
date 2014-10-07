@@ -1,0 +1,6 @@
+commit: HEAD
+process_files: [VampiroOne-Regular.ttf.ttx, src/VampiroOne-Regular.otf.ttx, src/VampiroOne-Regular_otf.sfd,
+  src/VampiroOne-Regular_ttf.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
